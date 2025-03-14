@@ -1,7 +1,7 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 
 
-import com.example.demo.Service.AppendService;
+import com.example.demo.application.AppendService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
