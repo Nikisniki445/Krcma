@@ -1,11 +1,9 @@
 package com.example.demo.application;
 
-import com.example.demo.domain.dto.UserDto;
-import com.example.demo.domain.entity.User;
-import com.example.demo.domain.repository.UserRepository;
+import com.example.demo.model.dto.UserDto;
+import com.example.demo.model.entity.User;
+import com.example.demo.model.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.BadRequestException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -13,7 +11,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class UserService {
+public class    UserService {
 
    private final UserRepository userRepository;
 

@@ -1,9 +1,7 @@
 package com.example.demo.controller;
 
-import com.example.demo.application.AppendService;
 import com.example.demo.application.UserService;
-import com.example.demo.domain.dto.UserDto;
-import org.apache.coyote.BadRequestException;
+import com.example.demo.model.dto.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
